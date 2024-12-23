@@ -1,4 +1,4 @@
-const { Sequelize } = require('sequelize')
+pm2 start . --name botName --attach --timeconst { Sequelize } = require('sequelize')
 const { existsSync } = require('fs')
 const path = require('path')
 const configPath = path.join(__dirname, './config.env')
